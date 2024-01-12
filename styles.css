@@ -5,7 +5,6 @@ body {
 
 div {
     box-sizing: border-box;
-    background: white;
 }
 
 header {
@@ -26,16 +25,14 @@ div.post img {
     width: 100%;
 }
 
-div.post .post header div:first-child {
+div.post .post-header div:first-child {
     display: inline-block;
-    width: 80%;
-    background: green;
+    width: 75%;
 }
 
-div.post .post header div:last-child {
+div.post .post-header div:last-child {
     display: inline-block;
     width: 20%;
-    background: yellow;
     padding: 10px;
     text-align: right;
     color: gray;
